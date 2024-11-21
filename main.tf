@@ -22,3 +22,8 @@ resource "aws_instance" "app_server" {
   }
 }
 
+variable "region" {
+ type        = string
+ default     = "us-west-2"
+ description = "EC2 instance region"
+}
