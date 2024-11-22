@@ -1,0 +1,8 @@
+digraph G {
+  rankdir = "RL";
+  node [shape = rect, fontname = "sans-serif"];
+  "aws_instance.app_server" [label="aws_instance.app_server"];
+  "aws_subnet.subnet01" [label="aws_subnet.subnet01"];
+  "aws_subnet.subnet02" [label="aws_subnet.subnet02"];
+  "aws_vpc.vpc01" [label="aws_vpc.vpc01"];
+}
